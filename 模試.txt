@@ -16,7 +16,7 @@ Auto Scaling グループの Amazon EC2 インスタンスでマイクロサー�
 D.
 Amazon Elastic Container Service (Amazon ECS) を使用して、コンテナでマイクロサービスを実行する。
 
-答え：B
+
 
 ②
 ある会社が、AWS クラウドで人気の高い自社ウェブアプリケーションの新しいモバイルバージョンを開発しているところです。このアプリケーションには内部ユーザーと外部ユーザーの両方がアクセスできなければなりません。モバイルアプリケーションは、1 つの中央ソースから承認、認証、およびユーザー管理を処理する必要があります。
@@ -39,7 +39,7 @@ D.
 AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)
 
 
-Cか　？
+
 
 
 ③
@@ -61,8 +61,6 @@ C.
 
 D.
 ApproximateNumberOfMessages Amazon CloudWatch メトリクスに基づいてスケールアウトおよびスケールインするように構成された Auto Scaling グループで、メッセージコンシューマーインスタンスを実行する。
-
-正解Bか？
 
 
 ④
@@ -86,7 +84,7 @@ AWS 管理 AD ドメインに参加している Amazon Elastic File System（Am
 D.
 Windows Server を実行している複数のアベイラビリティーゾーンの Amazon EC2 インスタンスにマウントされ、AWS 管理 AD ドメインに参加している Amazon S3 バケット
 
-正解Bか？
+
 
 
 
@@ -112,7 +110,7 @@ Amazon S3 コンソールから、Amazon S3 バケットを選択する。S3 バ
 
 
 
-D？　→A
+
 
 
 ⑥
@@ -138,7 +136,7 @@ D.
 E.
 データベースセキュリティグループに、データベースポート経由のアプリケーション層に対してセキュリティグループからのリクエストを許可する受信ルールを追加する。他の受信ルールは削除する。
 
-A、E？
+
 
 
 
@@ -161,7 +159,7 @@ C.
 D.
 EC2 インスタンスに AWS Firewall Manger をデプロイし、クロスサイトスクリプティングと SQL インジェクション攻撃をブロックする条件とルールを作成する。
 
-C
+
 
 ⑧
 ある API は大量のセンサーデータを受け取ります。データは傾向分析および予測レポート作成用に処理される前にキューに書き込まれます。現行のアーキテクチャでは、一部のデータレコードが複数回受信および処理されます。
@@ -181,7 +179,7 @@ D.
 レコードを Amazon Simple Queue Service (Amazon SQS) FIFO キューに送信するように API を構成する。
 
 
-D
+
 
 ⑨
 ある会社はデモのために Amazon EC2 スポットインスタンスを使用しました。デモが完了したので、ソリューションアーキテクトはスポットインスタンスを削除する必要があります。
@@ -203,7 +201,6 @@ C.
 D.
 スポットインスタンスを終了してから、スポットリクエストをキャンセルする。
 
-C
 
 
 ⑩
@@ -226,8 +223,6 @@ AWS Marketplace のサードパーティソリューションを使用して、�
 
 D.
 OpenSSL を使用して暗号化キーを生成し、暗号化を有効化した Amazon S3 バケットにキーをアップロードする。AWS Key Management Service (AWS KMS) キーポリシーを適用して、キーへのアクセスを制御する。
-
-A
 
 
 ⑪
@@ -255,7 +250,7 @@ E.
 インターネットからの HTTPS リクエストを許可するウェブセキュリティグループを作成する。ウェブセキュリティグループからの HTTP リクエストのみを許可するアプリケーションセキュリティグループを作成する。データベースポートでのみアプリケーションセキュリティグループからの TCP 接続を許可するデータベースセキュリティグループを作成する。
 
 
-B,E
+
 
 
 ⑫
@@ -278,7 +273,7 @@ D.
 2 つのアベイラビリティーゾーンの間に AWS Direct Connect を実装する。
 
 
-B
+
 
 
 ⑬
@@ -301,7 +296,7 @@ Amazon ElastiCache for Memcached を使用した Amazon Aurora
 D.
 Amazon ElastiCache for Memcached を使用した Amazon Neptune
 
-C？　→B
+
 
 
 ⑭
@@ -322,12 +317,7 @@ C.
 D.
 本番アカウントで各セキュリティチームメンバーに IAM ロールを作成する。セキュリティチームが必要とする許可を提供する権限ポリシーを新しい IAM グループにアタッチする。セキュリティチームメンバーをグループにアタッチする。
 
-D?
-「IAM ユーザーにアクセス許可を割り当てるためには、ユーザーグループを使用する」→「グループ」について触れているのはD
 
-https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/best-practices.html
-
-https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/id_roles_create_for-user.html
 
 ⑮
 あるソリューションアーキテクトが Amazon Elastic Container Service (Amazon ECS) を使用してコンテナ化されたウェブアプリケーションを実行するソリューションを設計しているところです。このソリューションアーキテクトは、各コンテナインスタンスでタスクの複数コピーを実行することにより、コストを最小限に抑えたいと考えています。
@@ -347,9 +337,6 @@ D.
 Amazon Route 53 エイリアスレコードセットを、重み付けされたルーティングポリシーを使用してリクエストを配布するように構成する。
 
 
-B？
-ECSということで動的ホストポートマッピングを選ぶ問題と考えて
-https://aws.amazon.com/jp/premiumsupport/knowledge-center/dynamic-port-mapping-ecs/
 
 
 ⑯
@@ -364,13 +351,13 @@ B.
 30 日後にファイルを Amazon S3 Glacier Deep Archive に移動するライフサイクルポリシーを設定する。
 
 C.
-30 日後にファイルを Amazon S3 Standard-Infrequent Access (S3 Standard-IA) に移動するライフサイクルポリシーを設定する。s
+30 日後にファイルを Amazon S3 Standard-Infrequent Access (S3 Standard-IA) に移動するライフサイクルポリシーを設定する。
 
 
 D.
 30 日後にファイルを Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) に移動するライフサイクルポリシーを設定する。
 
-C
+
 
 
 ⑰
@@ -392,9 +379,7 @@ AWS CloudFormation を使用して、必要なタイミングでインフラス�
 D.
 Application Load Balancer の背後にある Auto Scaling グループの Amazon EC2 インスタンスにアプリケーションをデプロイする。データベースに Amazon RDS for MySQL を使用する。
 
-A?
-非アクティブな期間が発生 →　予測不可能なワークロード　→　Amazon Aurora Serverless ？　
-https://aws.amazon.com/jp/rds/aurora/serverless/
+
 
 ⑱
 あるレポートアプリケーションは、Application Load Balancer の背後にある Amazon EC2 インスタンスで実行されます。インスタンスは複数のアベイラビリティーゾーンに渡っている EC2 Auto Scaling グループで実行されます。その複雑性のため、リクエストに応答するのに最大 15 分かかるレポートもあります。ソリューションアーキテクトは、スケールインイベント中にレポートリクエストの処理が進行中であると、ユーザーが 500 件ものエラーを受け取るのではないかと懸念しています。
@@ -413,7 +398,7 @@ Auto Scaling グループのクールダウン期間を 1500 秒より長くす�
 D.
 インスタンスのターゲットグループの登録解除遅延タイムアウトを 1500 秒より長くする。
 
-B?
+
 
 
 ⑲
@@ -433,7 +418,7 @@ Network Load Balancer でヘルスチェックを実行し、フェイルオー�
 D.
 複数の AZ で同一のインスタンスを起動するよう構成された Auto Scaling グループに、インスタンスのターゲットグループを追加する。
 
-D
+
 
 ⑳
 ある会社は、Amazon S3 バケットを使って法的文書を保管することを望んでいます。文書は頻繁に改訂され、同じオブジェクトキーを使ってバケットに再度アップロードされます。この会社は、文書の古いコピーをダウンロードする必要があるため、文書を誤って削除することがないように望んでいます。
@@ -457,4 +442,4 @@ D.
 S3 ライフサイクルポリシーを構成して、30 日後に文書を Amazon S3 Glacier にアーカイブする。
 
 
-A
+
