@@ -1,0 +1,31 @@
+
+
+
+フェールオーバールーティング　プライマリ　セカンダリ
+https://dev.classmethod.jp/articles/route-53-dns-failover-s3/
+
+
+プレイスメントグループ
+https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/placement-groups.html
+クラスター – アベイラビリティーゾーン内でインスタンスをまとめます。
+パーティション – インスタンスを複数の論理パーティションに分散させ、1 つのパーティション内のインスタンスのグループが基盤となるハードウェアを別のパーティション内のインスタンスのグループと共有しないようにします。
+分散 – 相関性のエラーを減らすために、少数のインスタンスを厳密に基盤となるハードウェア全体に配置します。 
+
+AWS DataSync
+https://qiita.com/fjisdahgaiuerua/items/2960a72dd87cf494a423
+データの移行 – ネットワークを介して Amazon S3 や Amazon EFS、または Amazon FSx for Windows ファイルサーバー にアクティブデータセットを素早く移動します。DataSync には自動暗号化やデータの整合性検証が含まれ、データは安全で無変更の使用可能な状態で到着します。
+
+データのアーカイブ – コールドデータを、高価なオンプレミスストレージシステムから、堅牢で安全な長期ストレージ Amazon S3 Glacier や S3 Glacier Deep Archive などのストレージに直接移動します。これにより、オンプレミスのストレージ容量を解放し、レガシーストレージシステムをシャットダウンできます
+
+
+Aurora レプリカでの Amazon Aurora Auto Scaling の使用
+https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/Aurora.Integrating.AutoScaling.html
+
+
+https://labs.septeni.co.jp/entry/20130917/1379354956
+優先度付きキュー
+無料会員のアクションより、有料会員のアクションを先に実行したいとか、そんなケースが挙げられます。
+
+
+VPCエンドポイント
+https://dev.classmethod.jp/articles/vpc-endpoint-gateway-type/
